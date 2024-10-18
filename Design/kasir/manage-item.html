@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Mart</title>
+    <link rel="stylesheet" href="/Assets/css/dashboard.css">
+    <link rel="stylesheet" href="/Assets/css/manage.css">
+</head>
+<body>
+    <div class="sisikiri">
+        <div class="atas">
+            <img src="/Assets/img/logo.jpg" alt="" srcset="">
+            <h1>Kasir</h1>
+        </div>
+        <div class="menu">
+            <a href="manage-item.html"><button class="menu-button">Manage Item</button></a>
+            <a href="manage-cust.html"><button class="menu-button">Manage Cust</button></a>
+            <a href=""><button class="menu-button">Transaction</button></a>
+            <a href=""><button class="menu-button">History Transaction</button></a>
+        </div>
+        <a href="../login.html" class="sign-out">Sign Out</a>
+    </div>
+    <div class="sisikanan">
+        <div class="judul">
+            <h1>Family Mart</h1>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="id_item">ID_Item :</label>
+                    <input type="text" id="id_item" name="id_item">
+                </div>
+                <div class="form-group">
+                    <label for="name_item">Name_Item :</label>
+                    <input type="text" id="name_item" name="name_item">
+                </div>
+                <div class="form-group">
+                    <label for="price">Price :</label>
+                    <input type="text" id="price" name="price">
+                </div>
+                <div class="form-group">
+                    <label for="stock">Stock :</label>
+                    <input type="text" id="stock" name="stock">
+                </div>
+            </form>
+        </div>
+        <div class="tabel">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID_Item</th>
+                        <th>Name_Item</th>
+                        <th>Price</th>
+                        <th>Stok</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data akan diisi disini -->
+                </tbody>
+            </table>
+        </div>
+        <div class="button-container">
+            <button class="btn add-item"><i class="icon">➕</i> Add-Item</button>
+            <button class="btn edit-item"><i class="icon">✏️</i> Edit-Item</button>
+            <button class="btn save-item"><i class="icon">💾</i> Save-Item</button>
+            <button class="btn remove-item"><i class="icon">🗑️</i> Remove-Item</button>
+        </div>
+    </div>
+</body>
+</html>

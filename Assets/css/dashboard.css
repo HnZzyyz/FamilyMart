@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.sisikiri {
+    background-color: #016E3F; /* Warna latar belakang hijau */
+    width: 35vw; /* Lebar tetap untuk sisikiri */
+    display: flex;
+    flex-direction: column; /* Mengatur elemen secara vertikal */
+    justify-content: flex-start; /* Mengatur elemen ke atas */
+    align-items: center; /* Mengatur elemen ke tengah */
+    /* padding: 20px; Menambahkan padding */
+}
+
+.sisikiri h1 {
+    color: white; /* Warna teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+.menu {
+    margin-top: 7vh;
+    width: 85%; /* Memastikan menu memenuhi lebar */
+}
+
+.menu-button {
+    background-color: #007BFF; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    padding: 20px; /* Menambahkan padding tombol */
+    margin: 10px 0; /* Jarak antar tombol */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    width: 100%; /* Tombol memenuhi lebar */
+    font-size: 20px; /* Ukuran font tombol */
+    text-align: left; /* Mengatur teks ke tengah */
+    font-weight: bold;
+}
+
+.menu-button:hover {
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.25); /* Shadow putih di bawah saat hover, lebih terang */
+}
+
+.sign-out {
+    position: absolute; /* Mengatur posisi tombol */
+    bottom: 20px; /* Jarak dari bawah */
+    width: 8%; /* Mengubah lebar tombol menjadi 100% */
+    font-weight: bold;
+    text-align:center;
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    padding: 10px; /* Menambahkan padding tombol */
+    background-color: #dc3545; /* Warna khusus untuk tombol Sign Out */
+    cursor: pointer; /* Mengubah kursor saat hover untuk menunjukkan tombol dapat diklik */
+}
+
+.sign-out:hover {
+    background-color: #e74c3c; /* Mengubah warna tombol menjadi merah */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.25); /* Menambahkan shadow putih di bawah saat hover, lebih terang */
+}
+
+
+.sisikanan {
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Assets/img/gambar1.jpg'); /* Gunakan background-image */
+    background-size: cover; /* Menutupi seluruh area */
+    width: 100%; /* Lebar tetap untuk sisikanan */
+    height: 100%; /* Gambar menyesuaikan dengan tinggi layar */
+    padding-right:80px;
+    padding-left:80px;
+}
+
+.atas{
+    width:100%;
+    height:12vh;
+    border-bottom:4px solid white;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    align-items: center;
+    gap: 30px;
+}
+
+.atas img {
+    width: 70px; /* Ukuran logo */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid white; /* Memberikan border putih 2px */
+}
+
+.atas h1 {
+    font-size:40px;
+}

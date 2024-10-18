@@ -1,0 +1,89 @@
+/* Design/login.css */
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Menambahkan box sizing untuk rapihkan tata letak */
+}
+
+.sisikiri {
+    background-color: #016E3F; /* Warna latar belakang hijau */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white; /* Latar belakang putih untuk kontainer */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Lebar kontainer */
+    height: 500px; /* Tinggi kontainer */
+    text-align: center;
+    box-sizing: border-box; /* Menambahkan box sizing untuk rapihkan tata letak */
+}
+
+.logo img {
+    width: 65px; /* Ukuran logo */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 0 0 -10px;
+    font-size: 45px; /* Membesarkan ukuran huruf h2 */
+}
+p {
+    font-size: 15px;
+    color: #979797;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height:4.5vh;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc; /* Warna abu-abu untuk border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Menambahkan box sizing untuk rapihkan tata letak */
+    font-size: 14px; /* Mengubah ukuran huruf menjadi lebih kecil */
+}
+
+button {
+    background-color: #2292D1; /* Warna tombol hijau */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    height: 3.5vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    box-sizing: border-box; /* Menambahkan box sizing untuk rapihkan tata letak */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna tombol saat hover */
+}
+
+.sisikanan {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sisikanan img {
+    width: 114vh; /* Gambar menyesuaikan dengan lebar layar */
+    height: 100%; /* Gambar menyesuaikan dengan tinggi layar */
+    object-fit: cover; /* Gambar akan menutupi seluruh area */
+    box-sizing: border-box; /* Menambahkan box sizing untuk rapihkan tata letak */
+}

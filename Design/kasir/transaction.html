@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Mart</title>
+    <link rel="stylesheet" href="/Assets/css/dashboard.css">
+    <link rel="stylesheet" href="/Assets/css/transaction.css">
+</head>
+<body>
+    <div class="sisikiri">
+        <div class="atas">
+            <img src="/Assets/img/logo.jpg" alt="" srcset="">
+            <h1>Kasir</h1>
+        </div>
+        <div class="menu">
+            <a href="manage-item.html"><button class="menu-button">Manage Item</button></a>
+            <a href="manage-cust.html"><button class="menu-button">Manage Cust</button></a>
+            <a href=""><button class="menu-button">Transaction</button></a>
+            <a href=""><button class="menu-button">History Transaction</button></a>
+        </div>
+        <a href="../login.html" class="sign-out">Sign Out</a>
+    </div>
+    <div class="sisikanan">
+        <div class="judul">
+            <h1>Family Mart</h1>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <label for="ID_Transaction">ID_Transaction:</label>
+                    <input type="text" id="ID_Transaction">
+                    
+                    <label for="Date_Transaction">Date_Transaction:</label>
+                    <input type="date" id="Date_Transaction">
+                </div>
+    
+                <div class="form-row">
+                    <label for="ID_Cust">ID_Cust:</label>
+                    <select id="ID_Cust">
+                        <option value="1">Customer 1</option>
+                        <option value="2">Customer 2</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    
+                    <label for="Name_Cust">Name_Cust:</label>
+                    <input type="text" id="Name_Cust" disabled>
+                </div>
+    
+                <div class="form-row">
+                    <label for="ID_Item">ID_Item:</label>
+                    <input type="text" id="ID_Item">
+    
+                    <label for="Name_Item">Name_Item:</label>
+                    <input type="text" id="Name_Item" disabled>
+                    
+                    <label for="Price_Item">Price_Item:</label>
+                    <input type="text" id="Price_Item" disabled>
+    
+                    <label for="Total_Item">Total_Item:</label>
+                    <input type="number" id="Total_Item">
+                </div>
+    
+                <div class="form-row">
+                    <label for="Total_Price_Trans">Total_Price_Trans:</label>
+                    <input type="text" id="Total_Price_Trans">
+    
+                    <label for="Payment">Payment:</label>
+                    <input type="text" id="Payment">
+                </div>
+    
+                <div class="form-row">
+                    <label for="Sub_Total">Sub_Total:</label>
+                    <input type="text" id="Sub_Total" disabled>
+                </div>
+    
+                <div class="form-row">
+                    <button type="button" id="addItem">+ Add-Item</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
